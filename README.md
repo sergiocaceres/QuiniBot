@@ -45,3 +45,17 @@ Por supuesto, cada opción tiene su comprobación de si se han introducido de fo
 El bot se ha desplegado en Heroku. Para ello, necesitamos el fichero Procfile que se encuentra subido en la raíz de este repositorio
 
 El bot se encuentra en funcionamiento y puede consultarse en https://telegram.me/QuinieBot
+
+## Imágenes del bot en funcionamiento
+
+Para iniciarlo basta con hacer /start y así poder ver las opciones que existen. Comprobamos también con uno de los premios para ver cuánto dinero nos ha tocado
+
+![Imagen 1](http://i63.tinypic.com/2pyoqvl.png)
+
+Vemos como nos imprime los resultados y comprobamos poniendo varios partidos acertados para ver que el pleno al 15 funciona y fallando el pleno al 15 para ver que el dinero está correcto
+
+![Imagen 2](http://i65.tinypic.com/2uom875.png)
+
+Ahora ponemos números aleatorios y vemos cuál es el resultado
+
+![Imagen 3](http://i63.tinypic.com/epng9t.png)
