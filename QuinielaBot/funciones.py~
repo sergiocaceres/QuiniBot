@@ -241,15 +241,15 @@ def dinero_(n_aciertos):
 		for i in vector_solucion:
 			if (n_aciertos == u'15') or (n_aciertos == 15):
 				devolver_dinero = (vector_solucion[0] + "€")
-			elif (n_aciertos == u'14') or (n_aciertos == 14):
+			elif n_aciertos == (u'14'):
 				devolver_dinero = (vector_solucion[2] + "€")
-			elif (n_aciertos == u'13') or (n_aciertos == 13):
+			elif n_aciertos == (u'13'):
 				devolver_dinero = (vector_solucion[4] + "€")
-			elif (n_aciertos == u'12') or (n_aciertos == 12):
+			elif n_aciertos == (u'12'):
 				devolver_dinero = (vector_solucion[6] + "€")
-			elif (n_aciertos == u'11') or (n_aciertos == 11):
+			elif n_aciertos == (u'11'):
 				devolver_dinero = (vector_solucion[8] + "€")
-			elif (n_aciertos == u'10') or (n_aciertos == 10):
+			elif n_aciertos == (u'10'):
 				devolver_dinero = (vector_solucion[10] + "€")
 			else:
 				devolver_dinero = ("0,00€")
