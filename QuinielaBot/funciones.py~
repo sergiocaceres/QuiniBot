@@ -91,14 +91,11 @@ def revisar_resultados(resultados_usuario):
 		if (comprobacion[14] == cadena_sol[14] and comprobacion[15] == cadena_sol[15] and comprobacion[16] == cadena_sol[16]):
 			contador_pleno = 1
 			aniadir = " contando con el pleno al 15"
-	print ("CONTADOR = ", contador)
 	#Vemos el premio que le ha tocado llamando a la función que lo calcula	
 	if contador_pleno == 1 and contador == 14:
 		premio = dinero_(15)
 	else:
 		premio = dinero_(contador)
-
-	print ("PREMIO = " , premio)
 	
 	#Le añadimos el valor de lo que le ha tocado y lo devolvemos
 	result = str(contador+contador_pleno) + " aciertos has tenido" + str(aniadir) + " y tu premio es de " + str(premio)
@@ -241,15 +238,15 @@ def dinero_(n_aciertos):
 		for i in vector_solucion:
 			if (n_aciertos == u'15') or (n_aciertos == 15):
 				devolver_dinero = (vector_solucion[0] + "€")
-			elif n_aciertos == (u'14'):
+			elif (n_aciertos == u'14') or (n_aciertos == 14):
 				devolver_dinero = (vector_solucion[2] + "€")
-			elif n_aciertos == (u'13'):
+			elif (n_aciertos == u'13') or (n_aciertos == 13):
 				devolver_dinero = (vector_solucion[4] + "€")
-			elif n_aciertos == (u'12'):
+			elif (n_aciertos == u'12') or (n_aciertos == 12):
 				devolver_dinero = (vector_solucion[6] + "€")
-			elif n_aciertos == (u'11'):
+			elif (n_aciertos == u'11') or (n_aciertos == 11):
 				devolver_dinero = (vector_solucion[8] + "€")
-			elif n_aciertos == (u'10'):
+			elif (n_aciertos == u'10') or (n_aciertos == 10):
 				devolver_dinero = (vector_solucion[10] + "€")
 			else:
 				devolver_dinero = ("0,00€")

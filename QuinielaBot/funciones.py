@@ -91,14 +91,12 @@ def revisar_resultados(resultados_usuario):
 		if (comprobacion[14] == cadena_sol[14] and comprobacion[15] == cadena_sol[15] and comprobacion[16] == cadena_sol[16]):
 			contador_pleno = 1
 			aniadir = " contando con el pleno al 15"
-	print ("CONTADOR = ", contador)
+
 	#Vemos el premio que le ha tocado llamando a la función que lo calcula	
 	if contador_pleno == 1 and contador == 14:
 		premio = dinero_(15)
 	else:
 		premio = dinero_(contador)
-
-	print ("PREMIO = " , premio)
 	
 	#Le añadimos el valor de lo que le ha tocado y lo devolvemos
 	result = str(contador+contador_pleno) + " aciertos has tenido" + str(aniadir) + " y tu premio es de " + str(premio)
