@@ -4,7 +4,7 @@ import requests
 import re
 from telebot import types
 
-
+bot = telebot.TeleBot(os.environ["TOKENQUINI"])
 #Función que nos elimina los tags de la web 
 def strip_tags(value):
 	return re.sub(r'<[^>]*?>', '', value)
