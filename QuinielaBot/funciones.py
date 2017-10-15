@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 from telebot import types
+import os
 
 bot = telebot.TeleBot(os.environ["TOKENQUINI"])
 #Función que nos elimina los tags de la web 
